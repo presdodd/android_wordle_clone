@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="400dp"
+    android:orientation="vertical"
+    tools:context=".InvalidInputFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="272dp"
+        android:gravity="center"
+        android:text="The strings must be of length 5"
+        android:textSize="32dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="200px"
+        android:text="OK"
+        android:id="@+id/okay"
+        />
+
+</LinearLayout>

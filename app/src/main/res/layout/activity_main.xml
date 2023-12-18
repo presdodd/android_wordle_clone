@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_weight="1"
+    android:id="@+id/main_container">
+
+    <LinearLayout
+        android:id="@+id/loading_screen"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:visibility="gone">
+
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="?android:attr/progressBarStyle"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Loading..."
+            android:layout_marginTop="16dp"/>
+    </LinearLayout>
+
+
+    <!-- res/layout/example_activity.xml -->
+<!--    <androidx.fragment.app.FragmentContainerView-->
+<!--        xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--        android:id="@+id/fragment_container_view"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:name="com.example.empyapplication.InvalidInputFragment"-->
+<!--        android:visibility="gone"/>-->
+
+
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_gravity="center"-->
+<!--        android:layout_margin="20px">-->
+<!--        <EditText-->
+<!--            android:id="@+id/L0_0"-->
+<!--            android:layout_weight="1"-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_height="40dp"-->
+<!--            android:layout_margin="5dp"-->
+<!--            android:gravity="center"-->
+<!--            android:text=""-->
+<!--            android:longClickable="false"-->
+<!--            android:textSize="20dp"-->
+<!--            android:background="@color/grey"-->
+<!--              />-->
+<!--        <TextView-->
+<!--            android:id="@+id/L0_1"-->
+<!--            android:layout_weight="1"-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_height="40dp"-->
+<!--            android:layout_margin="5dp"-->
+<!--            android:gravity="center"-->
+<!--            android:text="A1"-->
+<!--            android:textSize="20dp"-->
+<!--            android:background="@color/grey"-->
+<!--            />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/L0_2"-->
+<!--            android:layout_weight="1"-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_height="40dp"-->
+<!--            android:gravity="center"-->
+<!--            android:layout_margin="5dp"-->
+<!--            android:text="A1"-->
+<!--            android:textSize="20dp"-->
+<!--            android:background="@color/grey"-->
+<!--            />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/L0_3"-->
+<!--            android:layout_weight="1"-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_height="40dp"-->
+<!--            android:layout_margin="5dp"-->
+<!--            android:gravity="center"-->
+<!--            android:text="A1"-->
+<!--            android:textSize="20dp"-->
+<!--            android:background="@color/grey"-->
+<!--            />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/L0_4"-->
+<!--            android:layout_weight="1"-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_height="40dp"-->
+<!--            android:layout_margin="5dp"-->
+<!--            android:gravity="center"-->
+<!--            android:text="A1"-->
+<!--            android:textSize="20dp"-->
+<!--            android:background="@color/grey"-->
+<!--            />-->
+
+<!--    </LinearLayout>-->
+
+    <Button
+        android:id="@+id/b0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="b0_click"
+        android:text="Submit!" />
+
+
+    <Button
+        android:id="@+id/autoplay_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="autoplay"
+        android:text="Autoplay" />
+
+
+
+<!--    <Button-->
+<!--        android:id="@+id/autoplay_button"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:onClick="autoplay"-->
+<!--        android:text="Autoplay" />-->
+<!--    <EditText-->
+<!--        android:id="@+id/editText"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:hint="Enter your text here"-->
+<!--        android:inputType="text"-->
+<!--        />-->
+
+
+
+
+
+
+
+
+
+</LinearLayout>
